@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './_layout/header/header.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
     declarations: [
@@ -40,6 +41,7 @@ import { HeaderComponent } from './_layout/header/header.component';
             },
 
         ]),
+        BrowserAnimationsModule,
     ],
 
     providers: [],

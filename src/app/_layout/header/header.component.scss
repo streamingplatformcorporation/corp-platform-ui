@@ -1,0 +1,52 @@
+.wrapper {
+
+    width: 100%;
+
+    .header {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 15px;
+        margin: 0;
+
+        background-color: #121315;
+        color: #E5E5E5;
+
+        .left {
+
+
+        }
+
+        .right {
+
+            display: flex;
+
+            .nav-links {
+
+                display: flex;
+                flex-direction: row;
+                cursor: pointer;
+
+                .links {
+
+                    font-family: Roboto, serif;
+                    margin-left: 15px;
+
+                    .links:hover {
+
+                        color: #942CC5;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

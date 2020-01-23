@@ -1,0 +1,34 @@
+.wrapper {
+
+    .content {
+
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #121315;
+        width: 100%;
+
+        .top {
+
+            margin: 40px;
+            font-family: Lato, serif;
+            font-size: 50px;
+            text-align: center;
+            justify-content: center;
+            color: #9146ff;
+            width: 100%;
+
+        }
+
+        .bottom {
+
+            font-family: Roboto, serif;
+            font-size: 50px;
+            text-align: center;
+            justify-content: center;
+            color: #B7B7B7;
+            width: 100%;
+        }
+
+    }
+
+}
