@@ -5,24 +5,23 @@
     .content {
 
         display: flex;
+        justify-content: center;
         background-color: #121315;
+        padding: 15px;
 
         .left {
 
             display: flex;
+            justify-content: center;
 
             font-family: Lato, serif;
             font-size: 30px;
 
             color: white;
-            width: 100%;
-
+            width: 50%;
 
             .blurb {
 
-                width: 100%;
-                display: flex;
-                justify-content: center;
                 text-align: left;
 
             }
@@ -35,23 +34,30 @@
             flex-wrap: wrap;
             flex-direction: column;
             text-align: left;
-
+            align-items: center;
             font-family: Roboto, serif;
-            font-size: 25px;
+            font-size: 30px;
 
             color: white;
-            width: 100%;
 
             .title1 {
 
                 margin-bottom: 50px;
 
+
+                .support {
+
+                    margin-bottom: 15px;
+
+                }
+
                 .p {
 
                     color: #E5E5E5;
-                    font-size: 20px;
+                    font-size: 15px;
                     font-weight: lighter;
                     line-height: 25px;
+                    width: 60%;
 
                 }
 
@@ -59,10 +65,20 @@
 
             .title2 {
 
+                .connect {
+
+                    margin-bottom: 15px;
+
+                }
+
                 .p {
 
                     color: #E5E5E5;
-                    font-size: 20px;
+                    font-size: 15px;
+                    font-weight: lighter;
+                    line-height: 25px;
+                    width: 60%;
+
                 }
 
             }

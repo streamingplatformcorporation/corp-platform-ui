@@ -63,12 +63,12 @@
                 button {
 
                     font-family: Roboto, serif;
-                    letter-spacing: 0.1em;
+                    letter-spacing: .1px;
 
-                    padding: 5px;
-                    color: white;
+                    padding: 7px;
+                    color: #E5E5E5;
                     background-color: #121315;
-                    border: .5px solid #B7B7B7;
+                    border: 1px solid #B7B7B7;
                     border-radius: 3px;
                     box-sizing: border-box;
 
@@ -87,15 +87,6 @@
             margin: 15px;
             align-items: center;
 
-            .img {
-
-                img {
-
-                    display: flex;
-
-                }
-
-            }
 
         }
     }
