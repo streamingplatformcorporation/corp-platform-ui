@@ -1,7 +1,30 @@
 .wrapper {
 
+    width: 100%;
+
     .content {
 
+        background-color: #121315;
+        color: #E5E5E5;
+
+        display: flex;
+        padding: 15px;
+
+        .title {
+
+            font-size: 30px;
+            font-weight: 500;
+            display: flex;
+            flex-direction: column;
+
+            .questions {
+
+                font-size: 15px;
+                margin-top: 30px;
+                flex-wrap: wrap;
+
+            }
+        }
 
     }
 
